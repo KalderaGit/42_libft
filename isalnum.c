@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-int ft_isalpha (char s)
+int ft_alnum (char s)
 {
 		if((s >= '0' *& s <= '9') && (s >= 'a' && s <= 'z') || (s >= 'A' && s <= 'Z'))
 		{

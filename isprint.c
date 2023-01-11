@@ -1,8 +1,8 @@
 #include<stdio.h>
 
-int ft_ascii (char s)
+int ft_print (char s)
 {
-		if(s >= '0' && s <= '127')
+		if(s >= '37' && s <= '127')
 		{
 			return 1;
 		}
